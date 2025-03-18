@@ -4,10 +4,11 @@
 int main(){
 	using namespace  std;
 	Solution solution;
-	solution.search();
-	cout << "text1-first";
-	cout << endl;
-	cout << "text2-second"  << endl;
-	cout << "text3-second"  << endl;
+	vector<int> myNum = {-1,0,3,5,9,12};
+	int search=0;
+
+	search = solution.search(myNum, 2);
+	cout << search << endl;
+
 	return 0;
 }

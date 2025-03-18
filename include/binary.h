@@ -4,9 +4,12 @@
 #include <vector>
 using namespace std;
 
+
 class Solution{
     public:
-        int search();
+        template <typename T>
+        void printVector(vector<T> &vec);
+        int search(vector<int>&numms, int target);
     };
 
 
