@@ -15,4 +15,4 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_FILES)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build)
 
 # 生成可执行文件（最终生成的可执行文件名为 CppBasicExecutable）
-add_executable(CppBasicExecutable ${SRC_FILES})
+add_executable(Run ${SRC_FILES})

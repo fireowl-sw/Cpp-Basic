@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/01binary.cpp
+../include/binary.h
+vector
+-
+
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/binary.cpp
+binary.h
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/binary.h
+iostream
+-
 
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/main.cpp
 iostream
 -
+binary.h
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/binary.h
 
