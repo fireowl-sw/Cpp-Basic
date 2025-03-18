@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/run.dir/src/01binary.o CMakeFiles/run.dir/src/main.o  -o  /home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/run 

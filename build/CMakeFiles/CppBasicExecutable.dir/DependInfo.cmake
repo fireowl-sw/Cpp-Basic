@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/01binary.cpp" "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles/run.dir/src/01binary.o"
-  "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/main.cpp" "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles/run.dir/src/main.o"
+  "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/01binary.cpp" "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles/CppBasicExecutable.dir/src/01binary.cpp.o"
+  "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/main.cpp" "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles/CppBasicExecutable.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

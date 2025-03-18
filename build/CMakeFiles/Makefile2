@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/fireowl/A_Cpp_fireowl/Cpp-Basic
 CMAKE_BINARY_DIR = /home/fireowl/A_Cpp_fireowl/Cpp-Basic/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/run.dir
+# Target rules for target CMakeFiles/CppBasicExecutable.dir
 
 # All Build rule for target.
-CMakeFiles/run.dir/all:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=1,2,3 "Built target run"
-.PHONY : CMakeFiles/run.dir/all
+CMakeFiles/CppBasicExecutable.dir/all:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/depend
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=1,2,3 "Built target CppBasicExecutable"
+.PHONY : CMakeFiles/CppBasicExecutable.dir/all
 
 # Include target in all.
-all: CMakeFiles/run.dir/all
+all: CMakeFiles/CppBasicExecutable.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/run.dir/rule: cmake_check_build_system
+CMakeFiles/CppBasicExecutable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CppBasicExecutable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles 0
-.PHONY : CMakeFiles/run.dir/rule
+.PHONY : CMakeFiles/CppBasicExecutable.dir/rule
 
 # Convenience name for target.
-run: CMakeFiles/run.dir/rule
+CppBasicExecutable: CMakeFiles/CppBasicExecutable.dir/rule
 
-.PHONY : run
-
-# clean rule for target.
-CMakeFiles/run.dir/clean:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/clean
-.PHONY : CMakeFiles/run.dir/clean
+.PHONY : CppBasicExecutable
 
 # clean rule for target.
-clean: CMakeFiles/run.dir/clean
+CMakeFiles/CppBasicExecutable.dir/clean:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/clean
+.PHONY : CMakeFiles/CppBasicExecutable.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CppBasicExecutable.dir/clean
 
 .PHONY : clean
 

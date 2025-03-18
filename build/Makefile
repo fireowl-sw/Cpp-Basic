@@ -111,47 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named run
+# Target rules for targets named CppBasicExecutable
 
 # Build rule for target.
-run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run
-.PHONY : run
+CppBasicExecutable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CppBasicExecutable
+.PHONY : CppBasicExecutable
 
 # fast build rule for target.
-run/fast:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-.PHONY : run/fast
+CppBasicExecutable/fast:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/build
+.PHONY : CppBasicExecutable/fast
 
-# target to build an object file
-src/01binary.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/01binary.o
+src/01binary.o: src/01binary.cpp.o
+
 .PHONY : src/01binary.o
 
-# target to preprocess a source file
-src/01binary.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/01binary.i
+# target to build an object file
+src/01binary.cpp.o:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/src/01binary.cpp.o
+.PHONY : src/01binary.cpp.o
+
+src/01binary.i: src/01binary.cpp.i
+
 .PHONY : src/01binary.i
 
-# target to generate assembly for a file
-src/01binary.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/01binary.s
+# target to preprocess a source file
+src/01binary.cpp.i:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/src/01binary.cpp.i
+.PHONY : src/01binary.cpp.i
+
+src/01binary.s: src/01binary.cpp.s
+
 .PHONY : src/01binary.s
 
-# target to build an object file
-src/main.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/main.o
+# target to generate assembly for a file
+src/01binary.cpp.s:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/src/01binary.cpp.s
+.PHONY : src/01binary.cpp.s
+
+src/main.o: src/main.cpp.o
+
 .PHONY : src/main.o
 
-# target to preprocess a source file
-src/main.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/main.i
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
 .PHONY : src/main.i
 
-# target to generate assembly for a file
-src/main.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/main.s
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
 .PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/CppBasicExecutable.dir/build.make CMakeFiles/CppBasicExecutable.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -160,7 +184,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... run"
+	@echo "... CppBasicExecutable"
 	@echo "... edit_cache"
 	@echo "... src/01binary.o"
 	@echo "... src/01binary.i"
