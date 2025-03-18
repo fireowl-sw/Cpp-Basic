@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/01binary.cpp
+
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/main.cpp
+iostream
+-
+
