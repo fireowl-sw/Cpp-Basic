@@ -10,7 +10,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build)
 # 添加头文件搜索路径（如果 include 目录下有头文件）
 include_directories(
         ${PROJECT_SOURCE_DIR}/include/solutions
-        ${PROJECT_SOURCE_DIR}/include
 )
 
 # 自动收集 src 目录下的所有源文件 ALL_SRC是将源文件合并进行生成可执行文件

@@ -4,6 +4,8 @@
 时间复杂度：O(log n)
 空间复杂度：O(1)
 */
+
+using namespace std;
 int Solution::search(vector<int> &nums, int target)
 {
     cout << "目标值" << target << endl;

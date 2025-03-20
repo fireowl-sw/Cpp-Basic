@@ -6,8 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../include/solutions/array_rm.h
+binary.h
+../include/solutions/binary.h
+
 ../include/solutions/binary.h
 vector
+-
+
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp
+array_rm.h
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.h
+iostream
 -
 
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp
@@ -21,4 +31,6 @@ iostream
 -
 binary.h
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/binary.h
+array_rm.h
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/array_rm.h
 

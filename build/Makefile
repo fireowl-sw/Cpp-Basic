@@ -123,6 +123,33 @@ Run/fast:
 	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/build
 .PHONY : Run/fast
 
+src/solutions/array_rm.o: src/solutions/array_rm.cpp.o
+
+.PHONY : src/solutions/array_rm.o
+
+# target to build an object file
+src/solutions/array_rm.cpp.o:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o
+.PHONY : src/solutions/array_rm.cpp.o
+
+src/solutions/array_rm.i: src/solutions/array_rm.cpp.i
+
+.PHONY : src/solutions/array_rm.i
+
+# target to preprocess a source file
+src/solutions/array_rm.cpp.i:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/array_rm.cpp.i
+.PHONY : src/solutions/array_rm.cpp.i
+
+src/solutions/array_rm.s: src/solutions/array_rm.cpp.s
+
+.PHONY : src/solutions/array_rm.s
+
+# target to generate assembly for a file
+src/solutions/array_rm.cpp.s:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/array_rm.cpp.s
+.PHONY : src/solutions/array_rm.cpp.s
+
 src/solutions/binary.o: src/solutions/binary.cpp.o
 
 .PHONY : src/solutions/binary.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Run"
 	@echo "... edit_cache"
+	@echo "... src/solutions/array_rm.o"
+	@echo "... src/solutions/array_rm.i"
+	@echo "... src/solutions/array_rm.s"
 	@echo "... src/solutions/binary.o"
 	@echo "... src/solutions/binary.i"
 	@echo "... src/solutions/binary.s"
