@@ -1,1 +1,1 @@
-/usr/bin/g++     CMakeFiles/Run.dir/src/binary.cpp.o CMakeFiles/Run.dir/src/main.cpp.o  -o Run 
+/usr/bin/g++  -g   CMakeFiles/Run.dir/src/solutions/binary.cpp.o CMakeFiles/Run.dir/test/main.cpp.o  -o Run 

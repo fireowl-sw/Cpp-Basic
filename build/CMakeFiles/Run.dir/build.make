@@ -57,64 +57,64 @@ include CMakeFiles/Run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Run.dir/flags.make
 
-CMakeFiles/Run.dir/src/binary.cpp.o: CMakeFiles/Run.dir/flags.make
-CMakeFiles/Run.dir/src/binary.cpp.o: ../src/binary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Run.dir/src/binary.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/binary.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/binary.cpp
+CMakeFiles/Run.dir/src/solutions/binary.cpp.o: CMakeFiles/Run.dir/flags.make
+CMakeFiles/Run.dir/src/solutions/binary.cpp.o: ../src/solutions/binary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Run.dir/src/solutions/binary.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/binary.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp
 
-CMakeFiles/Run.dir/src/binary.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/src/binary.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/binary.cpp > CMakeFiles/Run.dir/src/binary.cpp.i
+CMakeFiles/Run.dir/src/solutions/binary.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/src/solutions/binary.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp > CMakeFiles/Run.dir/src/solutions/binary.cpp.i
 
-CMakeFiles/Run.dir/src/binary.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/src/binary.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/binary.cpp -o CMakeFiles/Run.dir/src/binary.cpp.s
+CMakeFiles/Run.dir/src/solutions/binary.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/src/solutions/binary.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp -o CMakeFiles/Run.dir/src/solutions/binary.cpp.s
 
-CMakeFiles/Run.dir/src/binary.cpp.o.requires:
+CMakeFiles/Run.dir/src/solutions/binary.cpp.o.requires:
 
-.PHONY : CMakeFiles/Run.dir/src/binary.cpp.o.requires
+.PHONY : CMakeFiles/Run.dir/src/solutions/binary.cpp.o.requires
 
-CMakeFiles/Run.dir/src/binary.cpp.o.provides: CMakeFiles/Run.dir/src/binary.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/binary.cpp.o.provides.build
-.PHONY : CMakeFiles/Run.dir/src/binary.cpp.o.provides
+CMakeFiles/Run.dir/src/solutions/binary.cpp.o.provides: CMakeFiles/Run.dir/src/solutions/binary.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/binary.cpp.o.provides.build
+.PHONY : CMakeFiles/Run.dir/src/solutions/binary.cpp.o.provides
 
-CMakeFiles/Run.dir/src/binary.cpp.o.provides.build: CMakeFiles/Run.dir/src/binary.cpp.o
+CMakeFiles/Run.dir/src/solutions/binary.cpp.o.provides.build: CMakeFiles/Run.dir/src/solutions/binary.cpp.o
 
 
-CMakeFiles/Run.dir/src/main.cpp.o: CMakeFiles/Run.dir/flags.make
-CMakeFiles/Run.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Run.dir/src/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/main.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/main.cpp
+CMakeFiles/Run.dir/test/main.cpp.o: CMakeFiles/Run.dir/flags.make
+CMakeFiles/Run.dir/test/main.cpp.o: ../test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Run.dir/test/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/test/main.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp
 
-CMakeFiles/Run.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/main.cpp > CMakeFiles/Run.dir/src/main.cpp.i
+CMakeFiles/Run.dir/test/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/test/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp > CMakeFiles/Run.dir/test/main.cpp.i
 
-CMakeFiles/Run.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/main.cpp -o CMakeFiles/Run.dir/src/main.cpp.s
+CMakeFiles/Run.dir/test/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/test/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp -o CMakeFiles/Run.dir/test/main.cpp.s
 
-CMakeFiles/Run.dir/src/main.cpp.o.requires:
+CMakeFiles/Run.dir/test/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/Run.dir/src/main.cpp.o.requires
+.PHONY : CMakeFiles/Run.dir/test/main.cpp.o.requires
 
-CMakeFiles/Run.dir/src/main.cpp.o.provides: CMakeFiles/Run.dir/src/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Run.dir/src/main.cpp.o.provides
+CMakeFiles/Run.dir/test/main.cpp.o.provides: CMakeFiles/Run.dir/test/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/test/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Run.dir/test/main.cpp.o.provides
 
-CMakeFiles/Run.dir/src/main.cpp.o.provides.build: CMakeFiles/Run.dir/src/main.cpp.o
+CMakeFiles/Run.dir/test/main.cpp.o.provides.build: CMakeFiles/Run.dir/test/main.cpp.o
 
 
 # Object files for target Run
 Run_OBJECTS = \
-"CMakeFiles/Run.dir/src/binary.cpp.o" \
-"CMakeFiles/Run.dir/src/main.cpp.o"
+"CMakeFiles/Run.dir/src/solutions/binary.cpp.o" \
+"CMakeFiles/Run.dir/test/main.cpp.o"
 
 # External object files for target Run
 Run_EXTERNAL_OBJECTS =
 
-Run: CMakeFiles/Run.dir/src/binary.cpp.o
-Run: CMakeFiles/Run.dir/src/main.cpp.o
+Run: CMakeFiles/Run.dir/src/solutions/binary.cpp.o
+Run: CMakeFiles/Run.dir/test/main.cpp.o
 Run: CMakeFiles/Run.dir/build.make
 Run: CMakeFiles/Run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Run"
@@ -125,8 +125,8 @@ CMakeFiles/Run.dir/build: Run
 
 .PHONY : CMakeFiles/Run.dir/build
 
-CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/src/binary.cpp.o.requires
-CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/src/main.cpp.o.requires
+CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/src/solutions/binary.cpp.o.requires
+CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/test/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Run.dir/requires
 

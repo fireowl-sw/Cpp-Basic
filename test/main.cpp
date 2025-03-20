@@ -7,7 +7,7 @@ int main(){
 	vector<int> myNum = {-1,0,3,5,9,12};
 	int search=0;
 
-	search = solution.search(myNum, 2);
+	search = solution.search(myNum, 5);
 	cout << search << endl;
 
 	return 0;

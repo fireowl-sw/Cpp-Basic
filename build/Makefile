@@ -123,59 +123,59 @@ Run/fast:
 	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/build
 .PHONY : Run/fast
 
-src/binary.o: src/binary.cpp.o
+src/solutions/binary.o: src/solutions/binary.cpp.o
 
-.PHONY : src/binary.o
-
-# target to build an object file
-src/binary.cpp.o:
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/binary.cpp.o
-.PHONY : src/binary.cpp.o
-
-src/binary.i: src/binary.cpp.i
-
-.PHONY : src/binary.i
-
-# target to preprocess a source file
-src/binary.cpp.i:
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/binary.cpp.i
-.PHONY : src/binary.cpp.i
-
-src/binary.s: src/binary.cpp.s
-
-.PHONY : src/binary.s
-
-# target to generate assembly for a file
-src/binary.cpp.s:
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/binary.cpp.s
-.PHONY : src/binary.cpp.s
-
-src/main.o: src/main.cpp.o
-
-.PHONY : src/main.o
+.PHONY : src/solutions/binary.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/solutions/binary.cpp.o:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/binary.cpp.o
+.PHONY : src/solutions/binary.cpp.o
 
-src/main.i: src/main.cpp.i
+src/solutions/binary.i: src/solutions/binary.cpp.i
 
-.PHONY : src/main.i
+.PHONY : src/solutions/binary.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/solutions/binary.cpp.i:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/binary.cpp.i
+.PHONY : src/solutions/binary.cpp.i
 
-src/main.s: src/main.cpp.s
+src/solutions/binary.s: src/solutions/binary.cpp.s
 
-.PHONY : src/main.s
+.PHONY : src/solutions/binary.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/solutions/binary.cpp.s:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/binary.cpp.s
+.PHONY : src/solutions/binary.cpp.s
+
+test/main.o: test/main.cpp.o
+
+.PHONY : test/main.o
+
+# target to build an object file
+test/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/test/main.cpp.o
+.PHONY : test/main.cpp.o
+
+test/main.i: test/main.cpp.i
+
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/test/main.cpp.i
+.PHONY : test/main.cpp.i
+
+test/main.s: test/main.cpp.s
+
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/test/main.cpp.s
+.PHONY : test/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Run"
 	@echo "... edit_cache"
-	@echo "... src/binary.o"
-	@echo "... src/binary.i"
-	@echo "... src/binary.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/solutions/binary.o"
+	@echo "... src/solutions/binary.i"
+	@echo "... src/solutions/binary.s"
+	@echo "... test/main.o"
+	@echo "... test/main.i"
+	@echo "... test/main.s"
 .PHONY : help
 
 
