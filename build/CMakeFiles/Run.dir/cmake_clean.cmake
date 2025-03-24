@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o"
+  "CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o"
   "CMakeFiles/Run.dir/src/solutions/binary.cpp.o"
   "CMakeFiles/Run.dir/test/main.cpp.o"
   "Run.pdb"

@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build",
+  "command": "/usr/bin/g++   -I/home/fireowl/A_Cpp_fireowl/Cpp-Basic/include/solutions  -g   -std=gnu++1z -o CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp",
+  "file": "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp"
+},
+{
+  "directory": "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build",
   "command": "/usr/bin/g++   -I/home/fireowl/A_Cpp_fireowl/Cpp-Basic/include/solutions  -g   -std=gnu++1z -o CMakeFiles/Run.dir/src/solutions/binary.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp",
   "file": "/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp"
 },

@@ -5,10 +5,15 @@ CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o: ../include/solutions/array_rm.h
 CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o: ../include/solutions/binary.h
 CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o: ../src/solutions/array_rm.cpp
 
+CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o: ../include/solutions/array_sqrt_sort.h
+CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o: ../include/solutions/binary.h
+CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o: ../src/solutions/array_sqrt_sort.cpp
+
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o: ../include/solutions/binary.h
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o: ../src/solutions/binary.cpp
 
 CMakeFiles/Run.dir/test/main.cpp.o: ../include/solutions/array_rm.h
+CMakeFiles/Run.dir/test/main.cpp.o: ../include/solutions/array_sqrt_sort.h
 CMakeFiles/Run.dir/test/main.cpp.o: ../include/solutions/binary.h
 CMakeFiles/Run.dir/test/main.cpp.o: ../test/main.cpp
 
