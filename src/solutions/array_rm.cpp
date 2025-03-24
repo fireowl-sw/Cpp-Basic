@@ -1,6 +1,7 @@
 #include "array_rm.h"
 #include <iostream>
 
+/************************************删除数组中的对应元素************************************/
 int SolutionRm::removeElement(std::vector<int> &nums, int val){
     using namespace std;
     int left  = 0;
