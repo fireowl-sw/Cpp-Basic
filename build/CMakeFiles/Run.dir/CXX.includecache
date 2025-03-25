@@ -18,6 +18,10 @@ binary.h
 vector
 -
 
+../include/solutions/minSubArrayLen.h
+binary.h
+../include/solutions/binary.h
+
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp
 array_rm.h
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.h
@@ -36,6 +40,10 @@ binary.h
 iostream
 -
 
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/minSubArrayLen.cpp
+minSubArrayLen.h
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/minSubArrayLen.h
+
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp
 iostream
 -
@@ -45,4 +53,6 @@ array_rm.h
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/array_rm.h
 array_sqrt_sort.h
 /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/array_sqrt_sort.h
+minSubArrayLen.h
+/home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/minSubArrayLen.h
 

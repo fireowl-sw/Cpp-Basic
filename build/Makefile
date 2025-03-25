@@ -204,6 +204,33 @@ src/solutions/binary.cpp.s:
 	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/binary.cpp.s
 .PHONY : src/solutions/binary.cpp.s
 
+src/solutions/minSubArrayLen.o: src/solutions/minSubArrayLen.cpp.o
+
+.PHONY : src/solutions/minSubArrayLen.o
+
+# target to build an object file
+src/solutions/minSubArrayLen.cpp.o:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o
+.PHONY : src/solutions/minSubArrayLen.cpp.o
+
+src/solutions/minSubArrayLen.i: src/solutions/minSubArrayLen.cpp.i
+
+.PHONY : src/solutions/minSubArrayLen.i
+
+# target to preprocess a source file
+src/solutions/minSubArrayLen.cpp.i:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.i
+.PHONY : src/solutions/minSubArrayLen.cpp.i
+
+src/solutions/minSubArrayLen.s: src/solutions/minSubArrayLen.cpp.s
+
+.PHONY : src/solutions/minSubArrayLen.s
+
+# target to generate assembly for a file
+src/solutions/minSubArrayLen.cpp.s:
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.s
+.PHONY : src/solutions/minSubArrayLen.cpp.s
+
 test/main.o: test/main.cpp.o
 
 .PHONY : test/main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... src/solutions/binary.o"
 	@echo "... src/solutions/binary.i"
 	@echo "... src/solutions/binary.s"
+	@echo "... src/solutions/minSubArrayLen.o"
+	@echo "... src/solutions/minSubArrayLen.i"
+	@echo "... src/solutions/minSubArrayLen.s"
 	@echo "... test/main.o"
 	@echo "... test/main.i"
 	@echo "... test/main.s"

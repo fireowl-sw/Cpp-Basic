@@ -12,8 +12,13 @@ CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o
  ../include/solutions/binary.h
  /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o
+ ../include/solutions/binary.h
+ ../include/solutions/minSubArrayLen.h
+ /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/minSubArrayLen.cpp
 CMakeFiles/Run.dir/test/main.cpp.o
  ../include/solutions/array_rm.h
  ../include/solutions/array_sqrt_sort.h
  ../include/solutions/binary.h
+ ../include/solutions/minSubArrayLen.h
  /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp

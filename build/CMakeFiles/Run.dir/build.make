@@ -60,15 +60,15 @@ include CMakeFiles/Run.dir/flags.make
 CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o: CMakeFiles/Run.dir/flags.make
 CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o: ../src/solutions/array_rm.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp
 
 CMakeFiles/Run.dir/src/solutions/array_rm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/src/solutions/array_rm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp > CMakeFiles/Run.dir/src/solutions/array_rm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp > CMakeFiles/Run.dir/src/solutions/array_rm.cpp.i
 
 CMakeFiles/Run.dir/src/solutions/array_rm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/src/solutions/array_rm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp -o CMakeFiles/Run.dir/src/solutions/array_rm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_rm.cpp -o CMakeFiles/Run.dir/src/solutions/array_rm.cpp.s
 
 CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o.provides.build: CMakeFiles/Run.d
 CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o: CMakeFiles/Run.dir/flags.make
 CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o: ../src/solutions/array_sqrt_sort.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp
 
 CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp > CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp > CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.i
 
 CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp -o CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/array_sqrt_sort.cpp -o CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.s
 
 CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o.provides.build: CMakeFile
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o: CMakeFiles/Run.dir/flags.make
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o: ../src/solutions/binary.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Run.dir/src/solutions/binary.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/binary.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/binary.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp
 
 CMakeFiles/Run.dir/src/solutions/binary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/src/solutions/binary.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp > CMakeFiles/Run.dir/src/solutions/binary.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp > CMakeFiles/Run.dir/src/solutions/binary.cpp.i
 
 CMakeFiles/Run.dir/src/solutions/binary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/src/solutions/binary.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp -o CMakeFiles/Run.dir/src/solutions/binary.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/binary.cpp -o CMakeFiles/Run.dir/src/solutions/binary.cpp.s
 
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o.requires:
 
@@ -129,18 +129,42 @@ CMakeFiles/Run.dir/src/solutions/binary.cpp.o.provides: CMakeFiles/Run.dir/src/s
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o.provides.build: CMakeFiles/Run.dir/src/solutions/binary.cpp.o
 
 
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o: CMakeFiles/Run.dir/flags.make
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o: ../src/solutions/minSubArrayLen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/minSubArrayLen.cpp
+
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/minSubArrayLen.cpp > CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.i
+
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/src/solutions/minSubArrayLen.cpp -o CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.s
+
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.requires:
+
+.PHONY : CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.requires
+
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.provides: CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Run.dir/build.make CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.provides.build
+.PHONY : CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.provides
+
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.provides.build: CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o
+
+
 CMakeFiles/Run.dir/test/main.cpp.o: CMakeFiles/Run.dir/flags.make
 CMakeFiles/Run.dir/test/main.cpp.o: ../test/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Run.dir/test/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/test/main.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Run.dir/test/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Run.dir/test/main.cpp.o -c /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp
 
 CMakeFiles/Run.dir/test/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Run.dir/test/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp > CMakeFiles/Run.dir/test/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp > CMakeFiles/Run.dir/test/main.cpp.i
 
 CMakeFiles/Run.dir/test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Run.dir/test/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp -o CMakeFiles/Run.dir/test/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fireowl/A_Cpp_fireowl/Cpp-Basic/test/main.cpp -o CMakeFiles/Run.dir/test/main.cpp.s
 
 CMakeFiles/Run.dir/test/main.cpp.o.requires:
 
@@ -158,6 +182,7 @@ Run_OBJECTS = \
 "CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o" \
 "CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o" \
 "CMakeFiles/Run.dir/src/solutions/binary.cpp.o" \
+"CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o" \
 "CMakeFiles/Run.dir/test/main.cpp.o"
 
 # External object files for target Run
@@ -166,10 +191,11 @@ Run_EXTERNAL_OBJECTS =
 Run: CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o
 Run: CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o
 Run: CMakeFiles/Run.dir/src/solutions/binary.cpp.o
+Run: CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o
 Run: CMakeFiles/Run.dir/test/main.cpp.o
 Run: CMakeFiles/Run.dir/build.make
 Run: CMakeFiles/Run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fireowl/A_Cpp_fireowl/Cpp-Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -180,6 +206,7 @@ CMakeFiles/Run.dir/build: Run
 CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/src/solutions/array_rm.cpp.o.requires
 CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o.requires
 CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/src/solutions/binary.cpp.o.requires
+CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o.requires
 CMakeFiles/Run.dir/requires: CMakeFiles/Run.dir/test/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Run.dir/requires

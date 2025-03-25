@@ -2,17 +2,29 @@
 #include "binary.h"
 #include "array_rm.h"
 #include "array_sqrt_sort.h"
+#include "minSubArrayLen.h"
+
 
 int main(){
 	using namespace  std;
-	/*******************数组平方后排序************************/
-	SolutionSqrt solutionsqrt;
+	/*******************minSubArrayLen************************/
+	MinSubArrayLen minSubArrayLen;
 	Solution solution;
-	vector<int> myNum = {-4,-1,0,3,10};
-	vector<int> result(myNum.size());
+	vector<int> Mynum = {2,3,1,2,4,3};
+	int target = 7;
+	minSubArrayLen.minSubArrayLen(target, Mynum);
+	solution.printVector(Mynum);
 
-	result = solutionsqrt.sortedSquares(myNum);
-	solution.printVector(result);
+
+
+	/*******************数组平方后排序************************/
+	// SolutionSqrt solutionsqrt;
+	// Solution solution;
+	// vector<int> myNum = {-4,-1,0,3,10};
+	// vector<int> result(myNum.size());
+
+	// result = solutionsqrt.sortedSquares(myNum);
+	// solution.printVector(result);
 
 	/*******************删除数组中对应的数************************/
 	// SolutionRm solutionrm;

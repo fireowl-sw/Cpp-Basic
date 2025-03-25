@@ -12,8 +12,13 @@ CMakeFiles/Run.dir/src/solutions/array_sqrt_sort.cpp.o: ../src/solutions/array_s
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o: ../include/solutions/binary.h
 CMakeFiles/Run.dir/src/solutions/binary.cpp.o: ../src/solutions/binary.cpp
 
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o: ../include/solutions/binary.h
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o: ../include/solutions/minSubArrayLen.h
+CMakeFiles/Run.dir/src/solutions/minSubArrayLen.cpp.o: ../src/solutions/minSubArrayLen.cpp
+
 CMakeFiles/Run.dir/test/main.cpp.o: ../include/solutions/array_rm.h
 CMakeFiles/Run.dir/test/main.cpp.o: ../include/solutions/array_sqrt_sort.h
 CMakeFiles/Run.dir/test/main.cpp.o: ../include/solutions/binary.h
+CMakeFiles/Run.dir/test/main.cpp.o: ../include/solutions/minSubArrayLen.h
 CMakeFiles/Run.dir/test/main.cpp.o: ../test/main.cpp
 
